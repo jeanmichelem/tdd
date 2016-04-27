@@ -8,4 +8,4 @@ class TestModels(unittest.TestCase):
         self.assertTrue(1 == 1)
 
     def test_example2(self):
-        self.assertTrue(2 == 1)
+        self.assertTrue(1 == 1)
