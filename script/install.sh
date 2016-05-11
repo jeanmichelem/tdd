@@ -1,8 +1,10 @@
 echo "Downloading repository"
 
-git clone https://github.com/jeanmichelem/tdd.git
+git clone https://github.com/jmavila/tdd-kata.git
 
 cd tdd
+
+echo "Set up virtualenv"
 
 virtualenv tdd_venv
 
@@ -10,14 +12,8 @@ source tdd_venv/bin/activate
 
 pip install -r requirements.txt
 
-
-npm install grunt-cli -g
-npm install grunt
-npm install grunt-contrib-watch
-npm install grunt-shell
-
-sudo npm install gulp -g
-sudo npm install gulp-shell
+#sudo npm install gulp -g
+#sudo npm install gulp-shell
 
 #$1 should be the team number
 git branch team_%1
